@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <ol>
+        <li>var ve let vs const</li>
+        <li>hoisting</li>
+        <li>temporal dead zone</li>
+    </ol>
+    <h1>var</h1>
+    <ul>
+        <li>global or functional scope</li>
+        <li>var can be redeclared</li>
+        <li>can be modified</li>
+        <li>can be reassigned later</li>
+    </ul>
+    <h1>let</h1>
+    <ul>
+        <li>block scoped</li>
+        <li>cannot redeclare</li>
+        <li>can be modified</li>
+        <li>cannot reassign</li>
+    </ul>
+    <h1>const</h1>
+    <ul>
+        <li>block scoped</li>
+        <li>cannot redeclare</li>
+        <li>cannot reassign</li>
+        <li>cannot modify</li>
+    </ul>
+    
+    <table class="table">
+        <tr>
+            <th>var</th>
+            <th>let</th>
+            <th>const</th>
+            
+        </tr>
+        <tr>
+            <td>global or functional scope</td>
+            <td>block scoped</td>
+            <td>block scoped</td>
+    
+            
+            
+            
+        </tr>
+        <tr>
+            <td>var can be redeclared</td>
+            <td>cannot redeclared</td>
+            <td>cannot redeclared</td>
+            
+            
+            
+        </tr>
+        <tr>
+           <td>can be modified</td> 
+           <td>can be modified</td> 
+            <td>cannot modified</td>
+    
+            
+        </tr>
+        <tr>
+            <td>can be reassigned later</td>
+            <td>cannot reassigned </td>
+            <td>cannot reassigned later</td>
+        </tr>
+    </table>
+    <hr >
+    <h1>HOISTING</h1>
+    <h3>it is a default js mechanism where our variables and functions are moved to top of their scope before
+        execution only declaration are hosted
+    </h3>
+    <hr>
+    <h1>TEMPORAL DEAD ZONE</h1>
+    <h3>Time between the variables hosted and the variables get initialized</h3>
+    
+    
+   <script src="./script.js"></script> 
+</body>
+</html>
